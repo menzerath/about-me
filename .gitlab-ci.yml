@@ -46,7 +46,7 @@ hub_tag:
   services:
     - docker:dind
   only:
-    - master
+    - tags
   script:
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $REGISTRY_URL
     - docker pull $REGISTRY_URL/$PROJECT_GROUP/$PROJECT_NAME:$CI_COMMIT_TAG
