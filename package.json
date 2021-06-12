@@ -1,6 +1,6 @@
 {
 	"name": "about-me",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Webserver, which echoes basic information about itself and its host.",
 	"main": "index.js",
 	"scripts": {
