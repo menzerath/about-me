@@ -1,5 +1,5 @@
-FROM node:10.7.0-alpine
-LABEL maintainer="Marvin Menzerath <github@marvin-menzerath.de>"
+FROM node:14-alpine
+LABEL maintainer="Marvin Menzerath <dev@marvin.pro>"
 
 RUN apk --no-cache upgrade && \
     apk --no-cache add curl
