@@ -13,8 +13,8 @@ http.createServer(function (req, res) {
 			"name": "about-me",
 			"version": package.version,
 			"urls": {
-				"docker": "https://hub.docker.com/r/marvinmenzerath/about-me/",
-				"source": "https://git.marvin-menzerath.de/docker/about-me"
+				"docker": "https://hub.docker.com/r/marvinmenzerath/about-me",
+				"source": package.repository.url
 			}
 		},
 		"os": {
@@ -27,7 +27,7 @@ http.createServer(function (req, res) {
 			"loadavg": os.loadavg(),
 			"totalmem": os.totalmem(),
 			"freemem": os.freemem(),
-			"hostncpusame": os.cpus(),
+			"cpus": os.cpus(),
 			"networkInterfaces": os.networkInterfaces()
 		},
 		"environment": process.env,
