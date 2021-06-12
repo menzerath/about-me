@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://git.marvin-menzerath.de/docker/about-me"
+		"url": "https://github.com/menzerath/about-me"
 	},
 	"author": "Marvin Menzerath",
 	"license": "MIT"
