@@ -1,4 +1,4 @@
-FROM node:24-alpine
+FROM node:26-alpine
 LABEL maintainer="Marvin Menzerath <dev@marvin.pro>"
 
 RUN apk --no-cache upgrade && \
